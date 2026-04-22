@@ -24,7 +24,7 @@ export default async function HomePage() {
 
       {!user && (
         <p className="rounded border border-amber-300 bg-amber-50 p-3 text-sm">
-          You&apos;re not signed in. Configure Supabase Auth and add a sign-in page to continue.
+          You&apos;re not signed in. <Link href="/login" className="underline">Sign in</Link> to create or join an order.
         </p>
       )}
 
